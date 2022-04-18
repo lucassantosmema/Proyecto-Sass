@@ -1,0 +1,63 @@
+@import "../variables/variables";
+
+// BARRA DE NAV 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    padding: 30px 0px;
+    background-color: #181617 ;
+    width: 100%;
+}
+
+    .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+} 
+
+.logo{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: whitesmoke;
+} 
+
+header nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+header nav a:hover{
+    color: $color-hover;
+}
+
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.mostrar-menu,
+.esconder-menu:hover{
+    color: $color-hover;
+}
+
+#check {
+    display: none;
+}
