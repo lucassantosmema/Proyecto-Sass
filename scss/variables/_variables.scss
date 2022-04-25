@@ -1,3 +1,72 @@
 $background-color:burlywood;
 $body-height:100vh;
 $color-hover:#05FCFC;
+$font-sizes:(
+    100:100px,
+    90:90px,
+    80:80px,
+    70:70px,
+    60:60px,
+    50:50px,
+    40:40px,
+    30:30px,
+    20:20px,
+    10:10px,
+);
+@mixin pie-pagina {
+    .pie-pagina .grupo-1 {
+
+        width: 90vw;
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+        grid-gap: 60px;
+        
+        }
+    
+    .grupo-1 .box:nth-child(1){
+        
+        display:none
+        
+        }
+}
+
+@mixin media-celular {
+    .pie-pagina .grupo-1 {
+        width: 90vw;
+        grid-template-columns: 100%;
+        grid-gap: 50px
+    }
+    .gps{
+
+        display: none;
+    }
+
+    .box1{
+        display: none;
+    }
+
+    .formulario {
+        grid-template-columns: 100%;
+        .btn-enviar {
+             display: block;
+             margin: 0 auto;
+            form textarea {
+                min-width: 90%;
+                .fotofondo2{
+                    height: 915px;
+                    .conocenos  {
+                        text-align: center;
+                        color: #525555;
+                        font-family: 'Hubballi', cursive;
+                        font-size: 50px;
+                        margin-top: 60%;   
+                    }
+                }
+            }
+        }                
+    }
+.slide img,.fotofondo2{
+    height: 65vh;
+}
+}

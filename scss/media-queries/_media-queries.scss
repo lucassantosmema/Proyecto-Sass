@@ -2,27 +2,18 @@
 
 @media  only screen and (max-width:768px) {
 
-    .pie-pagina .grupo-1 {
+    @include pie-pagina;
 
-        width: 90vw;
-        
-        grid-template-columns: repeat(2, 1fr);
-        
-        grid-gap: 50px;
-        
-        }
-        
-        .grupo-1 .box:nth-child(1){
+      .grupo-1 .box:nth-child(1){
         
         display:none
         
-        }
-    
+        }  
      .mostrar-menu,
      .esconder-menu{
          display: block;
      }
-    
+        
     .menu{
         position: fixed;
         width: 50%;
@@ -34,13 +25,11 @@
         padding: 100px 0px;
         z-index: 100;
         transition: 0.8s;
-    } 
-
-    .menu a{
-        display: block;
-        padding: 20px;
+        a{
+            display: block;
+            padding: 20px;
+        }    
     }
-
     .esconder-menu{
         position: absolute;
         top: 40px;
@@ -54,56 +43,6 @@
 
 @media  only screen and (max-width:636px){
 
-    .gps{
-
-        display: none;
-    }
-
-    .box1{
-        display: none;
-    }
-
-
-    .pie-pagina .grupo-1 {
-        width: 90vw;
-        grid-template-columns: 100%;
-        grid-gap: 50px
-
-    }
-
-    .formulario {
-
-    grid-template-columns: 100%;
+    @include media-celular;
     
-    }
-    
-    .formulario .btn-enviar {
-    
-    display: block;
-    
-    margin: 0 auto;
-    
-    }
-    
-    .formulario form textarea {
-    
-    min-width: 90%;
-    
-    }
-    .fotofondo2{
-    height: 915px;
-    }
-
-    .conocenos  {
-    text-align: center;
-    color: #525555;
-    font-family: 'Hubballi', cursive;
-    font-size: 50px;
-    margin-top: 60%;
-    }
-
-    .slide img{
-    height: 65vh;
-    }
-
-}
+}   

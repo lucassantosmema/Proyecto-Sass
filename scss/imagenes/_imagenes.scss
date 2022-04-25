@@ -1,20 +1,19 @@
+@import "../variables/variables";
+
 .background-image{
     background-image: url(../img/fotofondo.jpeg);
     background-size: cover;
     background-position: center center;
     height: 800px;
-}
-
-.background-image p{
-    color: #efefef;
-    text-transform: uppercase;
-    text-align: center;
-    font-family:'Hubballi', cursive;
-    font-size: 20px;
-    margin-top: 30%;
-    background-color: #7A7C7C;
-    
-    
+    p{
+        color: #efefef;
+        text-transform: uppercase;
+        text-align: center;
+        font-family:'Hubballi', cursive;
+        font-size: map-get($font-sizes,20 );
+        margin-top: 30%;
+        background-color: #7A7C7C; 
+    }       
 }
 
 .fotofondo{
@@ -23,18 +22,18 @@
     background-position: center center;
     height: 700px;
 }
+
 .conocenos h1{
     text-align: center;
     color: #525555;
     font-family:'Hubballi', cursive;
     font-size: 50px;
-}
-
-.conocenos p{
-    text-align: center;
-    color: #525555;
-    font-family:'Hubballi', cursive;
-    font-size: 50px;
+    p{
+        text-align: center;
+        color: #525555;
+        font-family:'Hubballi', cursive;
+        font-size:map-get($font-sizes,50 );
+     }
 }
 
 .gps{
@@ -46,12 +45,18 @@
 .fotofondo2{
 
     background-image: url(https://images.pexels.com/photos/3355400/pexels-photo-3355400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
 
-.conocenos h1 {
-    color: white;
-}
-
-.conocenos p {
-    color: white;
+    .conocenos h1{
+        text-align: center;
+        color: white;
+        font-family:'Hubballi', cursive;
+        font-size: map-get($font-sizes,50 );
+    }
+    
+    p{
+        text-align: center;
+        color: white;
+        font-family:'Hubballi', cursive;
+        font-size: map-get($font-sizes,50 );
+    }
 }

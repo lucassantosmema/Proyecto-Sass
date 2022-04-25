@@ -1,0 +1,1 @@
+Hice los mixins y los coloque en variables, hice el maps de font size y lo aplique en todo el html en los respectivos usos, y ademas utilice las keywords y la description

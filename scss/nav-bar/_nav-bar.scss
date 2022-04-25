@@ -24,7 +24,7 @@ header{
 } 
 
 .logo{
-    font-size: 40px;
+    font-size: map-get($font-sizes,40 );
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
     color: whitesmoke;
@@ -43,7 +43,7 @@ header nav a:hover{
 
 .mostrar-menu,
 .esconder-menu{
-    font-size: 30px;
+    font-size: map-get($font-sizes,30 );
     cursor: pointer;
     display: none;
     transition: 0.4s;
