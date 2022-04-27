@@ -1,6 +1,8 @@
-@import "../scss/variables/variables";
-@import "../scss/nav-bar/nav-bar";
-@import "../scss/footer/footer";
-@import "../scss/imagenes/imagenes";
-@import "../scss/formulario/formulario";
-@import "../scss/media-queries/media-queries";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./base/box-sizing";
+@import "./components/imagenes";
+@import "./layout/nav-bar";
+@import "./layout/formulario";
+@import "./layout/footer";
+@import "./layout/media-queries";
