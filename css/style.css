@@ -13,11 +13,9 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Hubballi', cursive;
-    font-size: 40px;
-    margin-top: 10%;
-    margin-left: 17%;
-    background-color: rgba(75, 74, 74, 0.2);
-    width: 70%; }
+    font-size: 20px;
+    margin-top: 20%;
+    background-color: rgba(75, 74, 74, 0.2); }
 
 .fotofondo {
   background-image: url(../img/fondorune.jpeg);
@@ -277,4 +275,7 @@ header nav a:hover {
             font-size: 50px;
             margin-top: 60%; }
   .slide img, .fotofondo2 {
-    height: 65vh; } }
+    height: 65vh; }
+  .background-image p {
+    justify-content: center;
+    text-align: center; } }
