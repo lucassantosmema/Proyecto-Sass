@@ -15,7 +15,8 @@
     font-family: 'Hubballi', cursive;
     font-size: 20px;
     margin-top: 20%;
-    background-color: rgba(75, 74, 74, 0.2); }
+    background-color: rgba(75, 74, 74, 0.2);
+    width: 70%; }
 
 .fotofondo {
   background-image: url(../img/fondorune.jpeg);
@@ -232,7 +233,7 @@ header nav a:hover {
   .menu {
     position: fixed;
     width: 50%;
-    height: 50%;
+    height: 55%;
     background: rgba(0, 0, 0, 0.45);
     right: -100%;
     top: 0;
