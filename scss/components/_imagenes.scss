@@ -6,13 +6,15 @@
     background-position: center center;
     height: 800px;
     p{
-        color: #efefef;
+        color: #ffffff;
         text-transform: uppercase;
         text-align: center;
         font-family:'Hubballi', cursive;
-        font-size: map-get($font-sizes,20 );
-        margin-top: 20%;
-        background-color: #7A7C7C rgba(255,255,255,0.1); 
+        font-size: map-get($font-sizes,40 );
+        margin-top: 10%;
+        margin-left: 17%;
+        background-color: rgba($color: #4b4a4a, $alpha: 0.2 );
+        width: 70%;
     }       
 }
 
